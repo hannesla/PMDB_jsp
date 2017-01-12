@@ -1,0 +1,18 @@
+﻿= <h2>JSP-työ</h2>
+
+= <h3>Kuvat käyttöliittymästä</h3>
+kuvat/kokoelma.png                      = sivu joka näyttää kokoelman sisältämät elokuvat
+kuvat/elokuva.png               		= sivu josta voi lisätä ja muokata elokuvien tietoja
+                                
+= <h3>PMDB:n koodi</h3>               
+<a href="https://trac.cc.jyu.fi/projects/ohj2ht/browser/k2016/PMDB/trunk">trunk</a> = PMDB:n koodi
+
+= <h3>Ajettava ohjelma</h3>
+webpmdb.war		         	 			 = ajettava war-tiedosto
+
+= <h3>JSP-tiedostot</h3>
+WebContent/pmdb.jsp			         	 = kokoelman tarkastelu -sivu
+WebContent/elokuva.jsp			         = elokuvan käsittely -sivu
+   
+= <h3>Bean</h3>
+src/jspPmdb/PmdbBean.java
